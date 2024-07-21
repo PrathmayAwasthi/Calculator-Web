@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style_sheets/style.css">
+    <link rel="stylesheet" href="style_sheets/utils.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathmay's Calculator</title>
+</head>
+
+<body>
+    <div class="calc">
+
+        <div class="container flex items-center flex-col mx-auto">
+            <div class="row inp">
+                <input type="text" class="input" value="0">
+            </div>
+            <div class="row">
+                <button class="button clear all-clear">AC</button>
+                <button class="button clear">
+                    <i class="material-icons" id="bs">backspace</i>
+                </button>
+                <button class="button clear">%</button>
+                <button class="button operator" id="divide">
+                    &divide
+                </button>
+            </div>
+            <div class="row">
+                <button class="button number">7</button>
+                <button class="button number">8</button>
+                <button class="button number">9</button>
+                <button class="button operator" id="multiply">x</button>
+            </div>
+            <div class="row">
+                <button class="button number">4</button>
+                <button class="button number">5</button>
+                <button class="button number">6</button>
+                <button class="button operator">-</button>
+            </div>
+            <div class="row">
+                <button class="button number">1</button>
+                <button class="button number">2</button>
+                <button class="button number">3</button>
+                <button class="button operator">+</button>
+            </div>
+            <div class="row last-row">
+                <button class="button number vip" id="zero">0</button>
+                <button class="button number aam-janta" id="period">.</button>
+                <button class="button operator aam-janta" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.text-center{
+    text-align: center;
+}
+/* '.' before writing the class name */
+
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+.row input{
+    margin: 0;
+    padding: 0;
+}
